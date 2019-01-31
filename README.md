@@ -1,7 +1,7 @@
 # portfolio_website
 
 
--- personal portfolio website built around template ColorLib
+-- personal portfolio website built around a template published by ColorLib
 
 -- coded modifications to base template for custom output
 
