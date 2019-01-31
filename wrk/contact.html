@@ -83,19 +83,19 @@
               <h2 class="h4">Contact Information</h2>
             </div>
             <div class="w-100"></div>
-            <div class="col-md-2"> <!-- CD: changed to col-md-2 -->
+            <div class="col-md-4"> <!-- CD: changed to col-md-4 -->
               <!-- CD: changed from Address to Location -->
-              <p><span>Location: </span> Westminster, CO</p>
+              <p><span>Location: </span> <a href="https://www.google.com/maps/place/Westminster,+CO/@39.8935842,-105.2167356,11z/data=!3m1!4b1!4m5!3m4!1s0x876b881ea2597f9f:0xa8cf57703f744417!8m2!3d39.8366528!4d-105.0372046"> Westminster, CO - USA </a></p> <!-- CD: added link to Google Maps -->
             </div>
-            <div class="col-md-3"> <!-- CD: changed to col-md-2 -->
+            <div class="col-md-3"> <!-- CD: changed to col-md-3 -->
               <p><span>Phone: </span> <a href="#">(503) 706.9821</a></p>
             </div>
-            <div class="col-md-4"> <!-- CD: changed to col-md-4 -->
+            <div class="col-md-5"> <!-- CD: changed to col-md-5 -->
               <p><span>Email: </span> <a href="#">colefromportland@gmail.com</a></p>
             </div>
-            <div class="col-md-3"> <!-- CD: changed to col-md-4 -->
+            <!-- CD: REMOVED <div class="col-md-3">
               <p><span>GitHub: </span> <a href="https://github.com/coledixon">github/coledixon</a></p>
-            </div>
+            </div> -->
           </div>
           <div class="row block-9">
             <div class="col-md-6 pr-md-5">
@@ -118,7 +118,9 @@
               </form>
             
             </div>
-            <div class="col-md-6" id="map"></div>
+            <!-- CD: rebuilt HTML to use image instead of Google Maps -->
+            <div class="col-md-6 author-img" style="background-image: url(images/cd_img_3.jpg);" data-scrollax=" properties: { translateY: '-70%'}"></div>
+            <!-- CD: REMOVED (see notes in <script> section) <div class="col-md-6" id="map"></div> -->
           </div>
         </div>
       </section>
@@ -176,7 +178,7 @@
     <script src="js/scrollax.min.js"></script>
     <script src="js/bootstrap-datepicker.js"></script>
     <script src="js/jquery.timepicker.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script><!-- CD: API key expired, new one required for Google Maps widget-->
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
     
