@@ -103,7 +103,7 @@ $(document).ready(function($) {
 					  {
 					    number: num,
 					    numberStep: comma_separator_number_step
-					  }, 7000
+					  }, 2500 // CD: changed time constraint from 7000 to 2500
 					);
 				});
 				
