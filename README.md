@@ -3,7 +3,7 @@
 
 -- personal portfolio / project website built around a template published from ColorLib
 
-	-- coded modifications to base template for custom output
+	-- coded modifications to base template(s) for custom output
 	
 	-- rebuilt portions of the base .html files / main.js
 	
