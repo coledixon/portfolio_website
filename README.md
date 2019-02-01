@@ -1,9 +1,12 @@
 # portfolio_website
 
 
--- personal portfolio website built around a template published by ColorLib
+-- personal portfolio / project website built around a template published from ColorLib
 
-  -- coded modifications to base template for custom output
+	-- coded modifications to base template for custom output
+	
+	-- rebuilt portions of the base .html files / main.js
+	
 
 -- HTML5 / CSS3 / JavaScript / Bootstrap / Owl Carousel 2 / jQuery
 
