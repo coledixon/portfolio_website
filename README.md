@@ -8,6 +8,6 @@
 	-- rebuilt portions of the base .html files / main.js
 	
 
--- HTML5 / CSS3 / JavaScript / Bootstrap / Owl Carousel 2 / jQuery
+-- HTML5 / CSS3 / JavaScript / Bootstrap / Owl Carousel 2 / jQuery / GoogleAPIs (_API Key expired for Google Maps widget, working on updating_)
 
 -- IDE: VSCode / DEBUG: Chrome (_extension_)
