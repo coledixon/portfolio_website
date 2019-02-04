@@ -1,5 +1,12 @@
 # portfolio_website
 
+### debugstatement.com
+
+-- DNS: Google Domains
+
+	-- configured A records in G Suite (_185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153_)
+	
+	-- CNAME configured through GitHub Pages
 
 -- personal portfolio / project website built around a template published from ColorLib
 
