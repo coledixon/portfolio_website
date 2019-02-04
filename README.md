@@ -1,6 +1,6 @@
 # portfolio_website
 
-### https://www.debugstatement.com
+### www.debugstatement.com
 
 -- personal portfolio / project website built around a template published from ColorLib
 
