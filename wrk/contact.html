@@ -99,21 +99,22 @@
           </div>
           <div class="row block-9">
             <div class="col-md-6 pr-md-5">
-              <form action="#">
+              <form>
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Name">
+                  <!-- CD: added id tags to <input>s for logic in main.js -->
+                  <input type="text" class="form-control" placeholder="Your Name" id="form-name"> <!-- CD: added id="form-name" -->
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Your Email">
+                  <input type="text" class="form-control" placeholder="Your Email" id="form-email"> <!-- CD: added id="form-email" -->
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" placeholder="Subject">
+                  <input type="text" class="form-control" placeholder="Subject" id="form-subject"> <!-- CD: added id="form-subject" -->
                 </div>
                 <div class="form-group">
-                  <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                  <textarea name="" cols="30" rows="7" class="form-control" placeholder="Message" id="form-message"></textarea> <!-- CD: added id="form-message" -->
                 </div>
                 <div class="form-group">
-                  <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                  <input type="submit" value="Send Message" id="form-btnSend" class="btn btn-primary py-3 px-5"> <!-- CD: added id="form-btnSend" -->
                 </div>
               </form>
             
