@@ -225,13 +225,14 @@ window.onload = function () {
 
 			var lnk  = "mailto:" + toEmail + "?cc=" + fromEmail
 							+ "&subject=" + sub + "&body=" + mess;
+							// CD: TODO figure out how to incorporate 'name' variable
 	
-			window.location.href = lnk;	
+			window.location.href = lnk;	// CD: this is not prompting local email browser... debug
 		});
 	}
 	sendEmail();
 
-	// CD: validate whether value is passed from HTML
+	// CD: validate NULL values from HTML
 	function isNullOrEmptyString(obj)
 	{
 		if (obj == null || obj == "") { return true; }
