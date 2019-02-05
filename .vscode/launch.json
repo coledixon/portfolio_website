@@ -8,7 +8,13 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            // "url": "C:\\Users\\Cole Dixon\\projects\\portfolio_website\\wrk\\index.html", // DEBUG
+            "url": "C:\\Users\\Cole Dixon\\projects\\portfolio_website\\wrk\\index.html", // DEBUG
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
             "url": "C:\\Users\\Cole Dixon\\projects\\portfolio_website\\portfolio_release\\index.html", // PROD
             "webRoot": "${workspaceFolder}"
         }
