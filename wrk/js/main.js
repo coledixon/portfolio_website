@@ -214,20 +214,20 @@ window.onload = function () {
 
 			// CD: capture values from HTML inputs
 			var name = escape(document.getElementById('form-name').value);
-			var fromEmail = escape(document.getElementById('form-email').value);
+			// CD: REMOVED var fromEmail = escape(document.getElementById('form-email').value);
 			var sub = escape(document.getElementById('form-subject').value);
 			var mess = escape(document.getElementById('form-message').value);
 
 			// CD: validate all values are populated (name can be NULL)
-			if (isNullOrEmptyString(fromEmail)) { alert("email address cannot be blank."); return; }
+			// CD: REMOVED if (isNullOrEmptyString(fromEmail)) { alert("email address cannot be blank."); return; }
 			if (isNullOrEmptyString(sub)) { alert("subject cannot be blank."); return; }
 			if (isNullOrEmptyString(mess)) { alert("message cannot be blank."); return; }
 
-			var lnk  = "mailto:" + toEmail + "?cc=" + fromEmail
-							+ "&subject=" + sub + "&body=" + mess;
-							// CD: TODO figure out how to incorporate 'name' variable
-	
-			window.location.href = lnk;	// CD: this is not prompting local email browser... debug
+			var link = "mailto:" + toEmail 
+						+ "&subject=" + (sub+" | "+name) 
+						+ "&body=" + mess;
+				   
+   			window.location.href = link; // CD: this is not prompting local email browser... debug
 		});
 	}
 	sendEmail();
